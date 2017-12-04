@@ -28,3 +28,4 @@ class Display extends Component {
         return <div className="display" onClick={this.onClickHandler}>{this.state.text}</div>
     }
 }
+export default Display;

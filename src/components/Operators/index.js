@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ee from '../../eventEmitter';
+//
+import Button from '../Button';
+import store from '../../store';
 
 class Operators extends Component {
     opHandler(type) {
@@ -32,3 +35,5 @@ class Operators extends Component {
         )
     }
 }
+
+export default Operators;

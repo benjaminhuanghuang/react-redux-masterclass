@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ee from '../../eventEmitter';
+//
+import Button from '../Button';
+import store from  '../../store';
 
 class Digits extends Component {
     digitClickHandler(num) {
@@ -17,3 +20,4 @@ class Digits extends Component {
         </section>
     }
 }
+export default Digits;

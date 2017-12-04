@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import ee from '../../eventEmitter';
+//
+import Button from '../Button';
+import store from  '../../store';
 
 class ControlPanel extends Component {
     showHistory() {
@@ -26,3 +30,5 @@ class ControlPanel extends Component {
         )
     }
 }
+
+export default ControlPanel;

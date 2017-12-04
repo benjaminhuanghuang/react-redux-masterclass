@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ee from '../../eventEmitter';
+//
+import store from '../../store';
+import Button from '../Button';
 
 class History extends Component {
     constructor(props) {
@@ -54,3 +57,5 @@ class History extends Component {
         )
     }
 }
+
+export default History;
