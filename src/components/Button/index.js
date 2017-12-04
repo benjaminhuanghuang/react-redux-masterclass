@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import './Calculator.css';
-
-
-
-
-
-
-
+import ee from '../../eventEmitter';
 
 class Button extends Component {
     constructor(props) {
@@ -28,4 +21,3 @@ class Button extends Component {
         );
     }
 }
-
